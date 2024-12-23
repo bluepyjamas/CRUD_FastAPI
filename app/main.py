@@ -6,6 +6,7 @@ from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session
+# from .database import async_engine, SessionLocal
 # from uuid import UUID, uuid4
 
 app = FastAPI()
@@ -38,10 +39,12 @@ class UserCreate(BaseModel):
     name: str
     email: str
 
+
 class UserResponse(BaseModel):
     id: int
     name: str
     email: str
+ 
     class Config:
         orm_mode =True
 
