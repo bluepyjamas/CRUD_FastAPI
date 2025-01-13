@@ -1,1 +1,1 @@
-Masters' Requirements writtn in FastAPI Python
+Masters' Requirement writtn in FastAPI Python
