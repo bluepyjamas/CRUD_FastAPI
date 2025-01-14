@@ -1,3 +1,3 @@
 # Crud FastAPI
 
-Masters' Requirement writtn in FastAPI Python
+Masters' Requirement written in FastAPI Python
